@@ -526,28 +526,7 @@ background-repeat: initial initial;">mounting facilities</li>
 </ul>
 </div>
 </section>
-<section id="notifications" style="margin: 0px; padding: 10px 0px;
-border-width: 1px 0px 0px; border-top-style: solid;
-border-top-color: rgb(204, 204, 204); outline: 0px; font-size:
-13px; vertical-align: baseline; background-color: transparent;
-display: block; color: rgb(85, 85, 85); font-family: sans-serif;
-font-style: normal; font-variant: normal; font-weight: normal;
-letter-spacing: normal; line-height: 18px; orphans: auto;
-text-align: start; text-indent: 0px; text-transform: none;
-white-space: normal; widows: auto; word-spacing: 0px;
--webkit-text-stroke-width: 0px; background-position: initial
-initial; background-repeat: initial initial;">
-<header style="margin: 0px 0px 10px; padding: 0px; border: 0px;
-outline: 0px; font-size: 13px; vertical-align: baseline;
-background-color: transparent; display: block;
-background-position: initial initial; background-repeat: initial
-initial;">
-<h2 style="margin: 0px; padding: 0px; border: 0px; outline: 0px;
-font-size: 18px; vertical-align: baseline; background-color:
-transparent; font-weight: normal; text-rendering:
-optimizelegibility; font-family: Ubuntu, sans-serif;
-line-height: 36px; background-position: initial initial;
-background-repeat: initial initial;">Update Notifications</h2>
+
 </header>
 <form action="https://sourceforge.net/projects/gpyfsa/subscribe"
 method="post" id="subscribe-form" style="margin: 0px; padding:
