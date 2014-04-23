@@ -1,0 +1,24 @@
+# Maintainer : a-Sansara <a-sansara@clochardprod.net>
+# Contributor:
+pkgname=gpyfsa
+pkgver=0.35
+pkgrel=1
+pkgdesc='a gtk+ GUI front-end of fsarchiver with mounting facilities'
+arch=('any')
+url='http://sourceforge.net/projects/gpyfsa/'
+license=('GPL3')
+depends=('gksu' 'python2' 'pygtk' 'desktop-file-utils' 'fsarchiver>=0.6.8')
+install="${pkgname}.install"
+source=("http://download.pluie.org/packages/archlinux/${pkgname}-${pkgver}.tar.bz2")
+md5sums=('a4ecf31222b2bee37db1646580440a8f')
+
+build() {
+  cd "${srcdir}/${pkgname}"
+  sed -i -e "s|env python$|env python2|" GPyFSA/*.py
+  python2 setup.py build
+}
+
+package() {
+  cd "${srcdir}/${pkgname}"
+  python2 setup.py install --root="${pkgdir}" --prefix=/usr --optimize=1
+}
