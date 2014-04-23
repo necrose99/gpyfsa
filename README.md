@@ -577,21 +577,7 @@ background-repeat: initial initial;"><span style="margin:
 transparent; background-position: initial initial;
 background-repeat: initial initial;"><a
 class="smarterwiki-linkify"
-href="mailto:michaellonewolf359@gmail.com"
-style="margin: 0px; padding: 0px; font-size: 13px;
-vertical-align: baseline; background-color:
-transparent; outline: none; color: rgb(0, 102, 153);
-text-decoration: none; -webkit-tap-highlight-color:
-rgb(0, 119, 170); background-position: initial
-initial; background-repeat: initial initial;">michaellonewolf359@gmail.com</a></span></code>.<span
-class="Apple-converted-space">&nbsp;</span><a
-href="https://sourceforge.net/account/" style="margin:
-0px; padding: 0px; font-size: 13px; vertical-align:
-baseline; background-color: transparent; outline: none;
-color: rgb(0, 102, 153); text-decoration: none;
--webkit-tap-highlight-color: rgb(0, 119, 170);
-background-position: initial initial; background-repeat:
-initial initial;">(change)</a></p>
+
 </section>
 </form>
 </section>
